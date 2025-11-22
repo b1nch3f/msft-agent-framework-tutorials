@@ -1,6 +1,6 @@
 from typing import Dict
 
-from agent_framework import ChatMessageStore
+from agent_framework import ChatAgent, ChatMessage, ChatMessageStore, Role, TextContent
 
 # Store message stores by session_id
 _session_stores: Dict[str, ChatMessageStore] = {}
